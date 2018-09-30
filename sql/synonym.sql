@@ -1,0 +1,7 @@
+CREATE or REPLACE PUBLIC SYNONYM emps FOR hr.employees;
+DROP PUBLIC SYNONYM emps;
+
+
+SELECT
+    *
+FROM emps;
